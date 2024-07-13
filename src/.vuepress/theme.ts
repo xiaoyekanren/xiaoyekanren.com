@@ -34,7 +34,7 @@ export default hopeTheme({
 
   // 是否显示右上角 github按钮，https://theme-hope.vuejs.press/zh/guide/layout/navbar.html
   repoDisplay: true,
-  repo: "xiaoyekanren",
+  repo: "xiaoyekanren/orders",
 
   // 是否展示编辑此页链接
   editLink: false,

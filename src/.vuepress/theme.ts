@@ -23,7 +23,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  displayFooter: true,
+  displayFooter: false,
   footer: "<a href=\"https://beian.miit.gov.cn\" target=\"_blank\">京ICP备2024053245号</a>　　<a href=\"https://beian.mps.gov.cn/#/query/webSearch?code=11010802044081\" rel=\"noreferrer\" target=\"_blank\">京公网安备11010802044081</a>",
 
   // ----- zzm -----

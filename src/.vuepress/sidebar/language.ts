@@ -2,21 +2,26 @@ import { arraySidebar } from "vuepress-theme-hope";
 
 export const language = arraySidebar([
   // 语言
-    // "", 
-    {
-      text: "Python",
-      icon: "book",
-      link: "python/",
-    },
+  // "",
     {
       text: "Java",
-      icon: "book",
+      icon: "",
+      prefix: "java/",
       link: "java/",
+      children: "structure",
     },
     {
       text: "Node.js",
-      icon: "book",
+      icon: "",
       prefix: "nodejs/",
+      link: "nodejs/",
+      children: "structure",
+    },
+    {
+      text: "Python",
+      icon: "",
+      link: "python/",
+      prefix: "python/",
       children: "structure",
     },
 ]);

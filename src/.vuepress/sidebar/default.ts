@@ -5,5 +5,5 @@ import { language } from "./language.js";
 
 export default sidebar({
     "/docs/maintenance/": maintenance,
-    "/docs/language": language,
+    "/docs/language/": language,
 });

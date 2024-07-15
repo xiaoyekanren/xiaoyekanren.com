@@ -13,4 +13,9 @@ export const language = arraySidebar([
       icon: "book",
       link: "java/",
     },
+    {
+      text: "Node.js",
+      icon: "book",
+      link: "Node.js/",
+    },
 ]);

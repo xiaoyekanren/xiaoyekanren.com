@@ -15,7 +15,6 @@ export default hopeTheme({
 
   // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  docsDir: "src",
 
   // 导航栏
   navbar,
@@ -28,21 +27,31 @@ export default hopeTheme({
   footer: "<a href=\"https://beian.miit.gov.cn\" target=\"_blank\">京ICP备2024053245号</a>　　<a href=\"https://beian.mps.gov.cn/#/query/webSearch?code=11010802044081\" rel=\"noreferrer\" target=\"_blank\">京公网安备11010802044081</a>",
 
   // ----- zzm -----
+  // 纯净模式
   pure: true,
   // 是否开启路径，贼丑
   breadcrumb: false,
+  // 切换深色模式，[深色，浅色]
+  darkmode: "toggle",
+  // ----- zzm -----
 
+
+  // ----- github相关配置 -----
   // 是否显示右上角 github按钮，https://theme-hope.vuejs.press/zh/guide/layout/navbar.html
   repoDisplay: true,
+  // 仓库
   repo: "xiaoyekanren/orders",
-
+  // 文档在仓库的路径
+  docsDir: "",
   // 是否展示编辑此页链接
-  editLink: false,
+  editLink: true,
   // 是否显示页面贡献者
-  contributors: false,
+  contributors: true,
   // 是否显示页面最后更新时间
-  lastUpdated: false,
-  // ----- zzm -----
+  lastUpdated: true,
+  // docs分支
+  docsBranch: "master",
+  // ----- github相关配置 -----
 
   // 多语言配置
   metaLocales: {

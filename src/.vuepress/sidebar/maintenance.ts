@@ -36,6 +36,7 @@ export const maintenance = arraySidebar([
       link: "iotdb/",
       prefix: "iotdb/",
       children: "structure",
+      // collapsible: true,  // 折叠
     },
     {
       text: "Linux",

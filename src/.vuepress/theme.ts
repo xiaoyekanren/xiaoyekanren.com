@@ -28,7 +28,7 @@ export default hopeTheme({
 
   // ----- zzm -----
   // 纯净模式
-  pure: true,
+  pure: false,
   // 是否开启路径，贼丑
   breadcrumb: false,
   // 切换深色模式，[深色，浅色]

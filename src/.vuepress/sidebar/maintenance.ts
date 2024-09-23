@@ -21,8 +21,8 @@ export const maintenance = arraySidebar([
       text: "Docker",
       icon: "",
       link: "docker/docker.md",
-      // prefix: "docker/",
-      // children: "structure",
+      prefix: "docker/",
+      children: "structure",
     },
     {
       text: "Git", 

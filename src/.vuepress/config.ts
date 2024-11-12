@@ -1,5 +1,7 @@
 import { defineUserConfig } from "vuepress";
 // import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+import { searchProPlugin } from "vuepress-plugin-search-pro";
+
 
 import theme from "./theme.js";
 
@@ -17,6 +19,11 @@ export default defineUserConfig({
   //     // 配置项
   //   }),
   // ],
+  plugins: [
+    searchProPlugin({
+      // 配置选项
+    }),
+  ],
 
   // 和 PWA 一起启用
   // shouldPrefetch: false,

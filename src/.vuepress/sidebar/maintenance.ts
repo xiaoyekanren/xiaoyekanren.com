@@ -10,6 +10,13 @@ export const maintenance = arraySidebar([
       children: "structure",
     },
     {
+      text: "大数据软件",
+      icon: "",
+      link: "bigdata/",
+      prefix: "bigdata/",
+      children: "structure",
+    },
+    {
       text: "IoTDB",
       icon: "",
       link: "iotdb/",

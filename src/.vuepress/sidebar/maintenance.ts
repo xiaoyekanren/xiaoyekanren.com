@@ -54,6 +54,20 @@ export const maintenance = arraySidebar([
       children: "structure",
     },
     {
+      text: "虚拟化",
+      icon: "",
+      link: "virtualization/",
+      prefix: "virtualization/",
+      children: "structure",
+    },
+    {
+      text: "路由交换",
+      icon: "",
+      link: "route&switch/",
+      prefix: "route&switch/",
+      children: "structure",
+    },
+    {
       text: "Nginx",
       icon: "",
       link: "nginx/nginx.md",

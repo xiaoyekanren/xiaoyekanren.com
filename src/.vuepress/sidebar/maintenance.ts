@@ -4,7 +4,6 @@ export const maintenance = arraySidebar([
   {
     text: "操作系统",
     icon: "desktop",
-    collapsible: true,
     children: [
       {
         text: "Linux",
@@ -26,7 +25,6 @@ export const maintenance = arraySidebar([
   {
     text: "数据库",
     icon: "database",
-    collapsible: true,
     children: [
       {
         text: "MySQL",
@@ -58,7 +56,6 @@ export const maintenance = arraySidebar([
   {
     text: "容器化",
     icon: "cube",
-    collapsible: true,
     children: [
       {
         text: "Docker",
@@ -80,7 +77,6 @@ export const maintenance = arraySidebar([
   {
     text: "大数据",
     icon: "chart-bar",
-    collapsible: true,
     children: [
       {
         text: "Kafka",
@@ -92,7 +88,6 @@ export const maintenance = arraySidebar([
   {
     text: "版本控制与CI/CD",
     icon: "code-branch",
-    collapsible: true,
     children: [
       {
         text: "Git",
@@ -114,7 +109,6 @@ export const maintenance = arraySidebar([
   {
     text: "网络",
     icon: "network-wired",
-    collapsible: true,
     children: [
       {
         text: "Nginx",
@@ -136,6 +130,5 @@ export const maintenance = arraySidebar([
     link: "virtualization/",
     prefix: "virtualization/",
     children: "structure",
-    collapsible: true,
   },
 ]);

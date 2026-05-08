@@ -29,6 +29,7 @@ export default hopeTheme({
   pure: false,
   // 是否开启路径，贼丑
   breadcrumb: false,
+  headerDepth: 1,
   // 切换深色模式，[深色，浅色]
   darkmode: "toggle",
   // ----- zzm -----
@@ -143,6 +144,10 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
+    blog: {
+      excerptLength: 0,
+    },
+
     // 搜索框
     slimsearch: true,
 

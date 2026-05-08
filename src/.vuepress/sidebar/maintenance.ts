@@ -2,8 +2,9 @@ import { arraySidebar } from "vuepress-theme-hope";
 
 export const maintenance = arraySidebar([
   {
-    text: "操作系统",
+    text: "系统",
     icon: "desktop",
+    collapsible: true,
     children: [
       {
         text: "Linux",
@@ -11,7 +12,6 @@ export const maintenance = arraySidebar([
         link: "linux/",
         prefix: "linux/",
         children: "structure",
-        collapsible: true,
       },
       {
         text: "Windows",
@@ -20,11 +20,19 @@ export const maintenance = arraySidebar([
         prefix: "windows/",
         children: "structure",
       },
+      {
+        text: "虚拟化",
+        icon: "",
+        link: "virtualization/",
+        prefix: "virtualization/",
+        children: "structure",
+      },
     ],
   },
   {
-    text: "数据库",
+    text: "数据服务",
     icon: "database",
+    collapsible: true,
     children: [
       {
         text: "MySQL",
@@ -47,15 +55,16 @@ export const maintenance = arraySidebar([
         link: "db/iotdb.md",
       },
       {
-        text: "IoTDB 同步",
+        text: "Kafka",
         icon: "",
-        link: "db/iotdb-sync.md",
+        link: "bigdata/kafka.md",
       },
     ],
   },
   {
     text: "容器化",
     icon: "cube",
+    collapsible: true,
     children: [
       {
         text: "Docker",
@@ -75,19 +84,9 @@ export const maintenance = arraySidebar([
     ],
   },
   {
-    text: "大数据",
-    icon: "chart-bar",
-    children: [
-      {
-        text: "Kafka",
-        icon: "",
-        link: "bigdata/kafka.md",
-      },
-    ],
-  },
-  {
-    text: "版本控制与CI/CD",
+    text: "版本控制",
     icon: "code-branch",
+    collapsible: true,
     children: [
       {
         text: "Git",
@@ -107,8 +106,9 @@ export const maintenance = arraySidebar([
     ],
   },
   {
-    text: "网络",
-    icon: "network-wired",
+    text: "常用软件",
+    icon: "box-open",
+    collapsible: true,
     children: [
       {
         text: "Nginx",
@@ -116,19 +116,23 @@ export const maintenance = arraySidebar([
         link: "nginx/nginx.md",
       },
       {
-        text: "路由交换",
+        text: "OpenVPN",
         icon: "",
-        link: "route&switch/",
-        prefix: "route&switch/",
-        children: "structure",
+        link: "openvpn.md",
+      },
+      {
+        text: "ClamAV",
+        icon: "",
+        link: "clamav.md",
       },
     ],
   },
   {
-    text: "虚拟化",
-    icon: "server",
-    link: "virtualization/",
-    prefix: "virtualization/",
+    text: "路由交换",
+    icon: "network-wired",
+    collapsible: true,
+    link: "route-switch/",
+    prefix: "route-switch/",
     children: "structure",
   },
 ]);

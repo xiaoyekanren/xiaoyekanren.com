@@ -1,77 +1,141 @@
 import { arraySidebar } from "vuepress-theme-hope";
 
 export const maintenance = arraySidebar([
-  // 运维
-    {
-      text: "数据库",
-      icon: "",
-      link: "db/",
-      prefix: "db/",
-      children: "structure",
-    },
-    {
-      text: "IoTDB",
-      icon: "",
-      link: "iotdb/",
-      prefix: "iotdb/",
-      children: "structure",
-      // collapsible: true,  // 折叠
-    },
-    {
-      text: "Docker",
-      icon: "",
-      link: "docker/docker.md",
-      prefix: "docker/",
-      children: "structure",
-    },
-    {
-      text: "Git", 
-      icon: "",
-      link: "git/git.md",
-      // prefix: "git/",
-      // children: "structure",
-    },
-    {
-      text: "Github",
-      icon: "",
-      link: "github/",
-      prefix: "github/",
-      children: "structure",
-    },
-    {
-      text: "Linux",
-      icon: "",
-      link: "linux/",
-      prefix: "linux/",
-      children: "structure",
-      collapsible: true,  // 折叠
-    },
-    {
-      text: "Windows",
-      icon: "",
-      link: "windows/",
-      prefix: "windows/",
-      children: "structure",
-    },
-    {
-      text: "虚拟化",
-      icon: "",
-      link: "virtualization/",
-      prefix: "virtualization/",
-      children: "structure",
-    },
-    {
-      text: "路由交换",
-      icon: "",
-      link: "route&switch/",
-      prefix: "route&switch/",
-      children: "structure",
-    },
-    {
-      text: "Nginx",
-      icon: "",
-      link: "nginx/nginx.md",
-      // prefix: "nginx/",
-      // children: "structure",
-    },
+  {
+    text: "操作系统",
+    icon: "desktop",
+    collapsible: true,
+    children: [
+      {
+        text: "Linux",
+        icon: "",
+        link: "linux/",
+        prefix: "linux/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "Windows",
+        icon: "",
+        link: "windows/",
+        prefix: "windows/",
+        children: "structure",
+      },
+    ],
+  },
+  {
+    text: "数据库",
+    icon: "database",
+    collapsible: true,
+    children: [
+      {
+        text: "MySQL",
+        icon: "",
+        link: "db/mysql.md",
+      },
+      {
+        text: "PostgreSQL",
+        icon: "",
+        link: "db/postgresql.md",
+      },
+      {
+        text: "TimescaleDB",
+        icon: "",
+        link: "db/timescaledb.md",
+      },
+      {
+        text: "IoTDB",
+        icon: "",
+        link: "db/iotdb.md",
+      },
+      {
+        text: "IoTDB 同步",
+        icon: "",
+        link: "db/iotdb-sync.md",
+      },
+    ],
+  },
+  {
+    text: "容器化",
+    icon: "cube",
+    collapsible: true,
+    children: [
+      {
+        text: "Docker",
+        icon: "",
+        link: "container/docker.md",
+      },
+      {
+        text: "Containerd",
+        icon: "",
+        link: "container/containerd.md",
+      },
+      {
+        text: "Kubernetes",
+        icon: "",
+        link: "container/Kubernetes.md",
+      },
+    ],
+  },
+  {
+    text: "大数据",
+    icon: "chart-bar",
+    collapsible: true,
+    children: [
+      {
+        text: "Kafka",
+        icon: "",
+        link: "bigdata/kafka.md",
+      },
+    ],
+  },
+  {
+    text: "版本控制与CI/CD",
+    icon: "code-branch",
+    collapsible: true,
+    children: [
+      {
+        text: "Git",
+        icon: "",
+        link: "git/git.md",
+      },
+      {
+        text: "GitHub Action",
+        icon: "",
+        link: "git/github-action.md",
+      },
+      {
+        text: "GitLab Runner",
+        icon: "",
+        link: "git/gitlab-runner.md",
+      },
+    ],
+  },
+  {
+    text: "网络",
+    icon: "network-wired",
+    collapsible: true,
+    children: [
+      {
+        text: "Nginx",
+        icon: "",
+        link: "nginx/nginx.md",
+      },
+      {
+        text: "路由交换",
+        icon: "",
+        link: "route&switch/",
+        prefix: "route&switch/",
+        children: "structure",
+      },
+    ],
+  },
+  {
+    text: "虚拟化",
+    icon: "server",
+    link: "virtualization/",
+    prefix: "virtualization/",
+    children: "structure",
+    collapsible: true,
+  },
 ]);

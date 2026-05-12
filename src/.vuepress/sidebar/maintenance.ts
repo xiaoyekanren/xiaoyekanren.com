@@ -103,6 +103,11 @@ export const maintenance = arraySidebar([
         icon: "",
         link: "git/gitlab-runner.md",
       },
+      {
+        text: "GitLab Jenkins Webhook",
+        icon: "",
+        link: "git/gitlab-jenkins-webhook.md",
+      },
     ],
   },
   {
